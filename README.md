@@ -19,5 +19,8 @@ set up nginx config file in /etc/nginx/site-enable
 restart nginx  
 
 
+#Run Testcases
+for local envo : python manage.py test
+
 
 
